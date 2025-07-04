@@ -36,7 +36,6 @@ cd <repository-directory-name>
 2. Create a Virtual Environment & Install Dependencies
 It's recommended to use a virtual environment to manage project dependencies.
 
-
 # Create a virtual environment
 python -m venv venv
 
@@ -51,7 +50,6 @@ pip install streamlit pandas matplotlib
 
 3. Set Up the Database
 This command will create the data_buku.db file and populate it with some initial example data. You only need to run this once.
-Bash
 python setup_db.py
 
 4. Run the Streamlit App
